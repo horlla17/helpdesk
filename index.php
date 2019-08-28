@@ -13,7 +13,7 @@
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
-/*require('client.inc.php');
+require('client.inc.php');
 
 require_once INCLUDE_DIR . 'class.page.php';
 
@@ -78,11 +78,9 @@ if ($cats->all()) { ?>
 ?>
 </div>
 </div>
-*/
+
 
 echo 'Who are you';
 
 
-/*<?php require(CLIENTINC_DIR.'footer.inc.php'); ?>*/
-
-?>
+<?php require(CLIENTINC_DIR.'footer.inc.php'); ?>
