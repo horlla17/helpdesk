@@ -80,4 +80,6 @@ if ($cats->all()) { ?>
 </div>
 
 <?php require(CLIENTINC_DIR.'footer.inc.php'); ?>
+
+echo 'Hello';
 ?>
