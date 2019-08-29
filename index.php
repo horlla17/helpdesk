@@ -13,15 +13,15 @@
 
     vim: expandtab sw=4 ts=4 sts=4:
 **********************************************************************/
-require('client.inc.php');
+/*require('client.inc.php');
 
 require_once INCLUDE_DIR . 'class.page.php';
 
 $section = 'home';
 require(CLIENTINC_DIR.'header.inc.php');
-?>
+?>*/
 <div id="landing_page">
-<?php include CLIENTINC_DIR.'templates/sidebar.tmpl.php'; ?>
+//<?php include CLIENTINC_DIR.'templates/sidebar.tmpl.php'; ?>
 <div class="main-content">
 <?php
 if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
