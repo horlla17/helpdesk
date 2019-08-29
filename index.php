@@ -81,5 +81,4 @@ if ($cats->all()) { ?>
 
 <?php require(CLIENTINC_DIR.'footer.inc.php'); ?>
 
-echo 'Hello';
 ?>
