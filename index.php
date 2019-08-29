@@ -79,4 +79,8 @@ if ($cats->all()) { ?>
 </div>
 </div>
 
+
+echo 'Who are you';
+
+
 <?php require(CLIENTINC_DIR.'footer.inc.php'); ?>
